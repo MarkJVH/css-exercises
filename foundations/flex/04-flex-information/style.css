@@ -2,6 +2,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+
 img {
   width: 100px;
   height: 100px;
@@ -24,3 +25,20 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* changes */
+.images {
+  display: flex;
+  padding-top: 32px;
+  justify-content: center;
+  gap: 52px;
+}
+
+.image {
+  flex-basis: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+}
+
